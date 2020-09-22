@@ -1,0 +1,398 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f4f2;
+  background-size: cover;
+  font-family: "Recursive", sans-serif;
+}
+
+.navbar-toggler-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.bestseller-div {
+  width: 10rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+/* carousal*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+body {
+  background-color: #f0f1f5;
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* Carousel */
+
+.owl-carousel .carousel-item {
+  background: #fff;
+  border: 1px solid #d9d7da;
+  text-align: center;
+}
+
+.owl-carousel .carousel-item-text {
+  padding: 12px;
+}
+
+.owl-carousel .carousel-item .item-kicker {
+  color: #9a5053;
+  display: block;
+  font-size: 0.8em;
+  font-weight: 600;
+  height: 30px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.owl-carousel .carousel-item .item-title {
+  color: #646464;
+  font-size: 1em;
+  font-weight: 600;
+  height: 38px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.owl-dots {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.owl-dot {
+  border-radius: 50px;
+  height: 10px;
+  width: 10px;
+  display: inline-block;
+  background: rgba(127, 127, 127, 0.5);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.owl-dot.active {
+  background: rgba(127, 127, 127, 1);
+}
+
+/* Tabs */
+
+.nav-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-tabs > li {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.nav-tabs > li:last-child {
+  margin-right: 0;
+}
+
+.tab-content {
+  display: inline-block;
+  width: 100%;
+}
+
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+}
+
+.cursor-left {
+  background-color: #dbe1dd;
+  margin-right: 2rem;
+  padding: 2rem 0.8rem;
+}
+.cursor-right {
+  background-color: #dbe1dd;
+
+  padding: 2rem 0.8rem;
+  margin-left: 4rem;
+}
+.bestseller-div p {
+}
+.navbar-new li {
+  list-style: none;
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid white;
+}
+.navbar-new a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-new {
+  background-color: black;
+  color: aliceblue;
+  padding: 1rem;
+}
+.header-nav ul {
+  display: flex;
+}
+
+.navi-head li {
+  display: flex;
+}
+.logo-pic {
+}
+.searchbar {
+  width: 100%;
+}
+.input-bar {
+  width: 70%;
+}
+
+.cart-button {
+}
+.nav-catagory {
+  background-color: #003004;
+}
+
+.nav-catagory .nav-item a {
+  color: #fff;
+
+  font-size: 0.8rem;
+}
+
+.slider {
+  max-width: 1150px;
+  display: flex;
+}
+
+.slider .card {
+  background-color: red;
+  flex: 1;
+  margin: 0 10px;
+}
+.slider .card .img {
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.book-title-new {
+  color: grey;
+  font-size: 1rem;
+}
+.card-paragragh {
+  font-size: 0.9rem;
+  padding-bottom: 0.2rem;
+}
+.footer-first-content {
+  background-color: silver;
+  margin-bottom: 0.2rem;
+}
+.foot-left {
+  background-color: #dfdfdf;
+}
+.footer-div {
+  color: white;
+}
+.footer-quick-links a {
+  margin: 0.5rem;
+}
+
+.footer-quick-links p {
+  font-size: 0.7rem;
+}
+.header-new-container {
+  background-color: #31465f;
+  color: #fff;
+}
+.writer-div-1 a {
+  text-decoration: none;
+  color: #47425f;
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid silver;
+}
+.writer-div-3 li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  padding: 1rem 0.3rem;
+  border-bottom: 1px solid silver;
+}
+.writer-div-3 ul {
+  padding: 0;
+}
+.writer-div-3 li a {
+  text-decoration: none;
+  color: #47425f;
+}
+.writer-div-select-option select {
+  padding: 0.3rem 0.5rem;
+  background-color: #cecece;
+  border-radius: 0.1rem;
+  border: 0;
+}
+.header-div-select-option {
+  margin-right: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.1rem;
+  border: 0;
+  background-color: #5c6d82;
+  color: #fff;
+}
+.footer-select-option {
+  margin-right: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+  border: 0;
+  background-color: #c7dce5;
+  color: #fff;
+  width: 95%;
+}
+.navbar-nav {
+  width: 45rem;
+}
+
+.cart-div {
+  margin-left: 25rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cart-div {
+    margin-left: 15rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .cart-div {
+    margin-left: 12rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .cart-div {
+    margin-left: 1rem;
+  }
+}
+.anchor-head a {
+  margin: 0.2rem;
+  text-decoration: none;
+  color: #fff;
+
+  margin-right: 0.5rem;
+}
+.customer-section {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url(./abstract-dotted-banner-background_1035-18160.jpg);
+}
+
+.customer-card {
+  background-color: #2d3641;
+  color: #fff;
+  border: 0;
+  outline-color: transparent;
+  margin-bottom: 1rem;
+}
+.header-cart {
+  height: 10rem;
+  color: #fff;
+  background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.header-cart h4 {
+  font-size: 2rem;
+}
+.header-cart p {
+  font-size: 1.2rem;
+  margin: 0.2rem 8rem;
+}
+.cart-img {
+  height: 50px;
+  width: 50px;
+}
+.checkout-btn button {
+  width: 100%;
+  background-color: #3e928f;
+  border: transparent;
+}
+.coupon-div input {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid grey;
+}
+.cart-total-head {
+  border-bottom: 1px solid grey;
+}
+.coupon-total-head {
+  border-bottom: 1px solid grey;
+}
+.coupon-div button {
+  width: 100%;
+  background-color: white;
+  color: grey;
+  border: transparent;
+  border: 1px solid grey;
+  margin-top: 1rem;
+}
+.coupon-div button:hover {
+  background-color: #c7c7c7;
+  border: 1px solid grey;
+}
+.div-image-single {
+}
+.div-image-single img {
+  object-fit: cover;
+
+  width: 100%;
+  height: 100%;
+}
+.qty-single {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1.3rem;
+  margin-right: 2rem;
+}
+.btn-buy {
+  background-color: #4db7b3;
+  border: transparent;
+}
+.single-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.description-div h4 {
+  color: #474242;
+  font-weight: 700;
+}
+.description {
+  color: #5c5555;
+  line-height: 3rem;
+}
+
+.title-single {
+  font-size: 2rem;
+}

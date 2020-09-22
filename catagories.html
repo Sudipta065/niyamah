@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Niyamah</title>
+
+  
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+ 
+  </head>
+
+  <body>
+
+
+    <nav class="navbar navbar-dark default-color">
+        <div class="col-md-2 logo-pic">
+          <a id="logoId" class="" href="#"><img alt="LOGO" /></a>
+        </div>
+  
+        <div class="col-md-8">
+          <div class="input-group md-form form-sm form-2 pl-0">
+              <input class="form-control my-0 py-1 lime-border" type="text" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <span class="input-group-text lime lighten-2" id="basic-text1"><i class="fas fa-search text-grey"
+                    aria-hidden="true"></i></span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2">
+  
+          <button class="btn btn-outline-dark">LogIn / Register</button>
+        </div>
+    </nav>
+
+    <div class="navbar navbar-expand-lg navbar-inverse bg-inverse  nav-catagory" >
+ 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i>
+          </span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+       
+            <li class="nav-item">
+                <a class="nav-link" href="#">হোম  <span>|</span></a>
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">সকল বই  <span>|</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">বইমেলা ২০২০  <span>|</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">  *প্রি-অর্ডার  <span>|</span></a>
+            </li>
+          
+            <li class="nav-item">
+                <a class="nav-link " href="#">    লেখক  <span>|</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">    প্রকাশনী  <span>|</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">     ক্যাটাগরিসমূহ  <span>|</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">      *নিয়ামাহ প্যাকেজ   <span>|</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">           ব্লগ   <span>|</span>
+                </a>
+              </li>
+        </ul>
+
+           <div class=" cart-div  " >
+     
+           <button class="cart-button"> Cart </button>
+           </div> 
+       
+
+
+</div>
+</div>
+<div class=" pt-2 header-new-container w-100">
+
+    <div class="row">
+      <div class="col">
+       
+      </div>
+      <div class="col-5 ">
+       <h2 class="d-flex justify-content-center">বিষয়বস্তু</h2>
+       <div class="d-flex justify-content-center anchor-head" >
+
+        <a href=""> Home </a>
+        <a href="">Book Store </a>
+      
+        <a href="#">বিষয়বস্তু</a>
+             
+                
+            </div>
+      </div>
+      <div class="col d-flex justify-content-center flex-column mr-3" >
+      
+
+        <select  class="header-div-select-option"aria-label="Sort by Popularity">
+          <option value="Popularity">Sort by Popularity</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select> 
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class=" pt-2  w-100">
+
+
+
+  <div class="row p-2">
+    <div class="col-md-3 pl-4">
+
+        <div class="writer-div-select-option selectpicker pb-2">
+            <h4 class="pb-2">Filter by</h4>
+            <select class="w-100" aria-label="Sort by Popularity">
+                
+                <option value="Popularity">Any লেখক</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select> 
+
+        
+              
+        </div>
+
+        <div class="writer-div-select-option selectpicker pb-2">
+            <select  class="w-100" aria-label="Sort by Popularity">
+        
+                <option value="Popularity">Any প্রকাশনী</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select> 
+    
+
+        </div>
+        <div class="writer-div-1 d-flex flex-column pb-2">
+
+<a href="#">اردو</a>
+
+<a href="#">বাংলা</a>
+
+<a href="#">Arabic</a>
+
+<a href="#">English</a>
+        </div>
+
+        <div class="writer-div">
+            <div class="col-sm">
+                <h5>নামায, সেহরি ও ইফতারের সময়সূচী</h5>
+         
+                <div class="row">
+                    <div class=" p-2 col-md-12 ">
+                        <select  class="footer-select-option"aria-label="Sort by Popularity">
+                          <option value="Popularity">Dhaka</option>
+                          <option value="saab">Saab</option>
+                          <option value="mercedes">Mercedes</option>
+                          <option value="audi">Audi</option>
+                        </select> 
+                        </div>
+                 <div class=" p-2 footer-first-content col-md-12 ">ইফতারের সময় 18:27 PM</div>
+                 <div class=" p-2 footer-first-content col-md-12 "> তাহাজ্জুদ ও সেহরির শেষ সময় 4:18 AM</div>
+                
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">ফজর</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center ">4:23 AM</div>
+         
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">যোহর</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center"> 12 :04 PM</div>
+         
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">   আসর</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center">  16:33 PM</div>
+         
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">       মাগরিব</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center"> 18:27 PM</div>
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">          ইশা</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center"> 
+                     19:43 PM</div>
+                 <div class=" p-2 footer-first-content col-md-4 d-flex justify-content-center foot-left">       সূর্যোদয়</div>
+                 <div class="col-12 p-2 footer-first-content col-md-8 d-flex justify-content-center">  5:37 AM</div>
+             
+          
+            
+             
+                 </div>
+                
+                
+              
+                
+                
+         
+               
+         
+               </div>
+            
+        </div>
+
+
+        <div class="writer-div-3 d-flex flex-column pb-2">
+<h4>Catagories</h4>
+            <ul>
+                <li><a href="#
+                    ">     Uncategorized</a></li>
+                <li><a href="#">আবদুল মতীন বিন হুসাইন</a></li>
+                <li><a href="#">আলোকিত প্রকাশনী</a></li>
+                <li><a href="#">ইসলামী বই</a></li>
+                <li><a href="#">কাঠের সামগ্রী</a></li>
+                <li>
+                
+                    <div class="panel-group">
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                          
+                              <a data-toggle="collapse" href="#collapse1">কিডস জোন</a>
+                         
+                          </div>
+                          <div id="collapse1" class="panel-collapse collapse">
+                            <ul class="list-group">
+                              <li class="list-group-item">One</li>
+                              <li class="list-group-item">Two</li>
+                              <li class="list-group-item">Three</li>
+                            </ul>
+                            <div class="panel-footer">Footer</div>
+                          </div>
+                        </div>
+                      </div> 
+                
+                </li>
+
+                <li><a href="#">জায়নামাজ</a></li>
+            </ul>
+       
+                    </div>
+
+
+
+                 
+
+
+    </div>
+    <div class=" col-md-9"> 
+        <div class="container p-2">
+            <div class="row">
+              <div class="col-md-12">
+           
+                    <div class="row mb-2">
+                      <div class="col-md-3 ">
+                        <div class="card bestseller-div" >
+                            <img src="./book.png" class="card-img-top" />
+                            <div class="card-body d-flex justify-content-center flex-column">
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Name
+                              </h4>
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Products
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card bestseller-div" >
+                            <img src="./book.png" class="card-img-top" />
+                            <div class="card-body d-flex justify-content-center flex-column">
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Name
+                              </h4>
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Products
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card bestseller-div" >
+                            <img src="./book.png" class="card-img-top" />
+                            <div class="card-body d-flex justify-content-center flex-column">
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Name
+                              </h4>
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Products
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card bestseller-div" >
+                            <img src="./book.png" class="card-img-top" />
+                            <div class="card-body d-flex justify-content-center flex-column">
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Name
+                              </h4>
+                              <h4 class="card-title book-title-new d-flex justify-content-center">
+                                Products
+                              </h4>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-3 ">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2">
+                        <div class="col-md-3 ">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2">
+                        <div class="col-md-3 ">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-2">
+                        <div class="col-md-3 ">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="card bestseller-div" >
+                              <img src="./book.png" class="card-img-top" />
+                              <div class="card-body d-flex justify-content-center flex-column">
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Name
+                                </h4>
+                                <h4 class="card-title book-title-new d-flex justify-content-center">
+                                  Products
+                                </h4>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    </div>
+                </div>
+         
+            </div>
+        </div>
+   
+     
+    </div>
+    
+  </div>
+</div>  
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+
+$('.carousel').carousel()
+</script>
+</html>
